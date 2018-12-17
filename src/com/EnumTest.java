@@ -6,7 +6,7 @@ package com;
 /**
  * @author fandong
  * @date 2018年11月21日 上午9:53:00 
- * @desc 交行公众号推送消息类型 q3575yi095et
+ * @desc qqqqqqqqqqqqq交行公众号推送消息类型 q3575yi095et
  */
 public enum EnumTest {
 
