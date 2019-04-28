@@ -5,20 +5,21 @@ package com;
 
 /**
  * @author fandong
- * @date 2018年11月19日 上午10:50:17 
+ * @date 2018年11月19日 上午10:50:17
  * @desc IT工作平台系统--节点对象，操作5响应使用
  */
 public class NodeBean {
 
-    private String nodeId;//当前节点ID
-    private String directNodeId;//目标节点ID
-    private String directNodeName;//目标节点名称
-    private String directNodeKind;//目标节点类型
-    private String orgScope;//机构范围
-    private String orgScopeId;//指定机构ID
-    private String roleCode;//节点角色
+    private String nodeId;// 当前节点ID
+    private String directNodeId;// 目标节点ID
+    private String directNodeName;// 目标节点名称
+    private String directNodeKind;// 目标节点类型
+    private String orgScope;// 机构范围
+    private String orgScopeId;// 指定机构ID
+    private String roleCode;// 节点角色
 
-    public NodeBean() {}
+    public NodeBean() {
+    }
 
     public NodeBean(String nodeId, String directNodeId, String directNodeName, String directNodeKind, String orgScope,
             String orgScopeId, String roleCode) {
@@ -87,5 +88,5 @@ public class NodeBean {
     public void setRoleCode(String roleCode) {
         this.roleCode = roleCode;
     }
-    
+
 }
